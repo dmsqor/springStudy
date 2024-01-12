@@ -12,6 +12,9 @@ public class Member {
         this.grade = grade;
     }
 
+    public Member(Long memberId, String itemA, int i) {
+    }
+
     public Long getId() {
         return id;
     }
